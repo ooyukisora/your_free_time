@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.side{
+  width: 8%;
+  background-color: darkgray; 
+  height: 100vh;
+  &_list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .icon_deco{
+      text-decoration-color: black;
+    }
+    &_icon{
+      font-size: 40px;
+      margin-top: 50px;
+      color: black;
+    }
+  }
+}
