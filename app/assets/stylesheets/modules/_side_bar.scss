@@ -2,11 +2,15 @@
   box-sizing: border-box;
 }
 
+.wrapper{
+  display: flex;
+}
+
 .side{
-  width: 8%;
+  width: 7%;
   background-color: darkgray; 
   height: 100vh;
-  &_list{
+  &_bar{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

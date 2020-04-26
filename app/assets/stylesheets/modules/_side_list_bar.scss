@@ -1,0 +1,72 @@
+.side_list{
+  width: 20%;
+  height: 100vh;
+  background-color: whitesmoke;
+  &_search{
+    padding: 30px;
+    height: 20%;
+    border-bottom: solid 2px gainsboro;
+    &_icon{
+      margin: auto;
+      font-size: 20px;
+      color: gray;
+    }
+    &_form{
+      width: 90%;
+      border: none;
+      outline: none;
+      background: none;
+      margin: auto;
+    }
+  }
+  &_bar{
+    height: 100%;
+    &_form{
+      margin-bottom: 10px;
+      width: 100%;
+      height: 100px;
+      position: relative;
+      .user_img{
+        width: 30%;
+        height: 100%;
+        background-color: whitesmoke;
+        &_top{
+          width: 85px;
+          border-radius: 50%; 
+          height: 85px;
+          position: absolute;
+          top: 10px;
+          left: 8px;
+        }
+      }
+      .user_data{
+        position: absolute;
+        top: 0px;
+        left: 30%;
+        width: 70%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        
+        &_name{
+          font-size: 18px;
+          margin-top: 7px;
+        }
+        &_time{
+          font-size: 13px;
+        }
+      }
+      .user_talk{
+        position: absolute;
+        width: 70%;
+        height: 57px;
+        top: 40px;
+        left: 30%;
+        color: darkgray;
+        overflow: hidden;
+        font-size: 17px;
+        margin-top: 3px;
+      }
+    }
+  }
+}
