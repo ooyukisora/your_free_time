@@ -1,6 +1,6 @@
 .side_list{
   width: 20%;
-  height: 100vh;
+  height: 971px;
   background-color: whitesmoke;
   &_search{
     padding: 30px;
@@ -22,6 +22,7 @@
   &_bar{
     height: 100%;
     &_form{
+      margin-top: 10px;
       margin-bottom: 10px;
       width: 100%;
       height: 100px;
@@ -54,6 +55,7 @@
         }
         &_time{
           font-size: 13px;
+          margin-right: 3px;
         }
       }
       .user_talk{
